@@ -1,0 +1,26 @@
+html {
+	box-sizing: border-box;
+}
+
+.timer {
+	display: flex;
+	justify-content: center;
+}
+
+.field {
+	display: flex;
+	flex-direction: column;
+	width: 50px;
+	margin-right: 10px;
+	background-color: rgb(128, 241, 241);
+}
+
+.value {
+	font-size: 24px;
+	text-align: center;
+}
+.label {
+	font-size: 12px;
+	color: dimgrey;
+	text-align: center;
+}
